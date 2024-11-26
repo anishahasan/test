@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+		 <meta charset="UTF-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    		<title>Small Gallery</title>
+
+	<style>
+		body
+			{
+				font-family: Arial;
+				margin:0;
+				padding:0;
+				background-color:#FFDEE9;
+				background: linear-gradient(to right, #FFDEE9);
+				color:#444;
+			}
+		
+		header
+			{	
+				text-align: center;
+				padding: 16px 0;
+				color: white;
+				background-color:#FFB6C1;
+				box-shadow:0 4px 6px rgba(0,0,0,0.1);
+				border-radius:0 0 10px 20px;
+			}
+
+
+		nav	
+			{	
+				text-align: center;
+				margin: 20px 0;
+			}
+
+		nav a
+			{	
+				
+				font-size:20px;
+				font-weight:bold;
+				color: white;
+				text-decoration: none;
+				padding: 10px 20px;
+				margin: 0 10px;
+				border-radius:20px;
+				transition: all 0.3s ease;
+			}
+
+		nav a:hover
+
+			{
+				background-color:#FF6347;
+				color: white;
+				box-shadow:0 0 10px rgba(255, 99, 71, 0.5);
+			}
+
+
+			
+		section
+				{
+					padding:20px;
+					margin: 20px auto;
+					max-width:1000px;
+					background:#ffffff;
+					border-radius:15px;
+					box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+					text-align: center;		
+	
+				}
+
+			h1
+				{	
+					font-size: 25px;
+					margin-bottom: 10px;
+				}
+
+			p	
+				{
+					font-size: 15px;
+					line-height: 10px
+				}
+
+
+			h2
+				{	
+					font-size: 25px;
+					margin-bottom: 10px;
+					text-align: center;
+				}
+
+			.gallery
+				{
+					display:grid;
+					grid-template-columns:repeat(4, 1fr);
+					gap: 15px;
+					justify-items:center;
+				}
+			
+
+
+			.gallery img
+				
+				{
+					width: 100%;
+					height: 200px;
+					object-fit: cover;
+					border-radius: 10px;
+					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+					transition: transform 0.3s ease;
+					
+				}
+
+			.gallery img:hover
+
+				{
+					transform: scale(1.1);
+				}
+
+
+			footer
+				{
+					padding: 15px;
+					margin-top: 20px;
+					border-radius: 20px;
+					background-color:#FFB6C1;
+					color: white;
+					text-align: center;
+				}
+
+
+	</style>	
+
+</head>
+<body>
+
+	<header>
+		
+		<h1> Small Gallery </h1>
+		<p> Here are some pictures of me, my family and friends.</p>
+	</header>
+
+	
+	<nav>
+
+		<a href="index.html">Home</a>
+        	<a href="aboutme.html">About Me</a>
+        	<a href="education.html">Education</a>
+        	<a href="smallgallery.html">Small Gallery</a>
+	</nav>
+
+	
+
+
+	<section>
+
+
+				<br><br><hr>
+		
+		
+		<!-- Me Section -->
+			<h4> Me </h4>
+			<div class= "gallery"> 
+				
+				<img class= ""about-img" src= "image../me.JPG" alt="me">
+				<img class= ""about-img" src= "image../me2.JPG" alt="me">
+				<img class= ""about-img" src= "image../me3.JPG" alt="me">
+				<img class= ""about-img" src= "image../me4.JPG" alt="me">
+				
+			</div>
+		<br><br><hr>
+
+		<!-- Family Section -->
+			<h4> Family </h4>
+			<div class= "gallery"> 
+				
+				<img class= ""about-img" src= "image/family.JPG" alt="me">
+				<img class= ""about-img" src= "image/family2.JPG" alt="me">
+				<img class= ""about-img" src= "image/family3.JPG" alt="me">
+				<img class= ""about-img" src= "image/family4.JPG" alt="me">
+				
+			</div>
+		<br><br><hr>
+
+		<!-- Friends Section -->
+			<h4> Friends </h4> 
+			<div class= "gallery"> 
+				
+				<img class= ""about-img" src= "image/friends.JPG" alt="me">
+				<img class= ""about-img" src= "image/friends2.JPG" alt="me">
+				<img class= ""about-img" src= "image/friends3.JPG" alt="me">
+				<img class= ""about-img" src= "image/friends4.JPG" alt="me">
+
+			</div>
+	</section>
+
+
+	
+	<footer>
+			<p>&copy; 2024 My Small Gallery </p>
+	</footer>
+
+</body>
+</html>
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
